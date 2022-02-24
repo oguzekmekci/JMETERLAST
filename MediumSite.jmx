@@ -122,7 +122,7 @@
           <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
             <stringProp name="filename"></stringProp>
             <stringProp name="parameters"></stringProp>
-            <boolProp name="resetInterpreter">true</boolProp>
+            <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="script">log.info(&quot;Ekmek Kasaları Devrildi&quot;);</stringProp>
           </BeanShellPostProcessor>
           <hashTree/>
